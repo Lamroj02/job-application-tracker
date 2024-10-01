@@ -4,8 +4,9 @@
 
 table {
   margin: 0 auto; /* Centers the table */
+  margin-top: 15px;
   border-collapse: collapse;
-  width: 60%;
+  width: 80%;
 }
 
 table th, table td {
@@ -14,9 +15,17 @@ table th, table td {
 }
 
 table th {
-  background-color: #f2f2f2;
-  color: black;
+  background-color: #7891d7;
+  color: white;
   text-align: left;
+}
+
+.modTh{
+  background-color: #404e73;
+}
+
+.editBtn {
+  
 }
 
 table tr:nth-child(even) {
@@ -28,9 +37,4 @@ table tr:hover {
 
 table th, table td {
   padding: 12px 15px;
-}
-
-table th {
-  background-color: #7891d7;
-  color: white;
 }
